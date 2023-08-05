@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110A01C0EEA2B8BA38A0A157 /* Pods_ProyectoRick_Morty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B855CBC9FBF45BF789E7CFC /* Pods_ProyectoRick_Morty.framework */; };
+		84296D1828A03ED800C54408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84296D1728A03ED800C54408 /* AppDelegate.m */; };
+		84296D1B28A03ED800C54408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84296D1A28A03ED800C54408 /* ViewController.m */; };
+		84296D1D28A03ED900C54408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84296D1C28A03ED900C54408 /* Assets.xcassets */; };
+		84296D2028A03ED900C54408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84296D1E28A03ED900C54408 /* Main.storyboard */; };
+		84296D2228A03ED900C54408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84296D2128A03ED900C54408 /* main.m */; };
+		845575C528A04506005E7C68 /* CharactersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845575C428A04506005E7C68 /* CharactersController.m */; };
+		845575C728A046F4005E7C68 /* backgroud-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 845575C628A046F4005E7C68 /* backgroud-img.png */; };
+		845575CB28A04AC0005E7C68 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 845575CA28A04AC0005E7C68 /* Character.m */; };
+		848CCD8A28A1BCF8005F506F /* CharacterProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 848CCD8928A1BCF8005F506F /* CharacterProfile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F8FCE1FEA7F6A752083C775 /* Pods-ProyectoRick&Morty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoRick&Morty.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoRick&Morty/Pods-ProyectoRick&Morty.debug.xcconfig"; sourceTree = "<group>"; };
+		5B855CBC9FBF45BF789E7CFC /* Pods_ProyectoRick_Morty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoRick_Morty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84296D1328A03ED800C54408 /* ProyectoRick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProyectoRick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84296D1628A03ED800C54408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84296D1728A03ED800C54408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84296D1928A03ED800C54408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84296D1A28A03ED800C54408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84296D1C28A03ED900C54408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84296D1F28A03ED900C54408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84296D2128A03ED900C54408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84296D2328A03ED900C54408 /* ProyectoRick_Morty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProyectoRick_Morty.entitlements; sourceTree = "<group>"; };
+		845575C328A04506005E7C68 /* CharactersController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersController.h; sourceTree = "<group>"; };
+		845575C428A04506005E7C68 /* CharactersController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersController.m; sourceTree = "<group>"; };
+		845575C628A046F4005E7C68 /* backgroud-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroud-img.png"; path = "assets/backgroud-img.png"; sourceTree = "<group>"; };
+		845575C928A04AC0005E7C68 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		845575CA28A04AC0005E7C68 /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		845575CC28A097D3005E7C68 /* ProyectoRick-Morty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ProyectoRick-Morty-Info.plist"; sourceTree = SOURCE_ROOT; };
+		848CCD8828A1BCF8005F506F /* CharacterProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterProfile.h; sourceTree = "<group>"; };
+		848CCD8928A1BCF8005F506F /* CharacterProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterProfile.m; sourceTree = "<group>"; };
+		D015C1275A9AECD276AD93AC /* Pods-ProyectoRick&Morty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoRick&Morty.release.xcconfig"; path = "Target Support Files/Pods-ProyectoRick&Morty/Pods-ProyectoRick&Morty.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84296D1028A03ED800C54408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110A01C0EEA2B8BA38A0A157 /* Pods_ProyectoRick_Morty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ADD146ED3A2A1DE4E8ACBA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B855CBC9FBF45BF789E7CFC /* Pods_ProyectoRick_Morty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C25F2EF09FE4798AE778305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F8FCE1FEA7F6A752083C775 /* Pods-ProyectoRick&Morty.debug.xcconfig */,
+				D015C1275A9AECD276AD93AC /* Pods-ProyectoRick&Morty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84296D0A28A03ED800C54408 = {
+			isa = PBXGroup;
+			children = (
+				84296D1528A03ED800C54408 /* ProyectoRick&Morty */,
+				84296D1428A03ED800C54408 /* Products */,
+				5C25F2EF09FE4798AE778305 /* Pods */,
+				0ADD146ED3A2A1DE4E8ACBA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84296D1428A03ED800C54408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84296D1328A03ED800C54408 /* ProyectoRick&Morty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84296D1528A03ED800C54408 /* ProyectoRick&Morty */ = {
+			isa = PBXGroup;
+			children = (
+				845575CC28A097D3005E7C68 /* ProyectoRick-Morty-Info.plist */,
+				845575C828A04A5F005E7C68 /* Entity */,
+				84296D1628A03ED800C54408 /* AppDelegate.h */,
+				84296D1728A03ED800C54408 /* AppDelegate.m */,
+				84296D1928A03ED800C54408 /* ViewController.h */,
+				84296D1A28A03ED800C54408 /* ViewController.m */,
+				845575C628A046F4005E7C68 /* backgroud-img.png */,
+				84296D1C28A03ED900C54408 /* Assets.xcassets */,
+				84296D1E28A03ED900C54408 /* Main.storyboard */,
+				84296D2128A03ED900C54408 /* main.m */,
+				84296D2328A03ED900C54408 /* ProyectoRick_Morty.entitlements */,
+				845575C328A04506005E7C68 /* CharactersController.h */,
+				845575C428A04506005E7C68 /* CharactersController.m */,
+				848CCD8828A1BCF8005F506F /* CharacterProfile.h */,
+				848CCD8928A1BCF8005F506F /* CharacterProfile.m */,
+			);
+			path = "ProyectoRick&Morty";
+			sourceTree = "<group>";
+		};
+		845575C828A04A5F005E7C68 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				845575C928A04AC0005E7C68 /* Character.h */,
+				845575CA28A04AC0005E7C68 /* Character.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84296D1228A03ED800C54408 /* ProyectoRick&Morty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84296D2628A03EDA00C54408 /* Build configuration list for PBXNativeTarget "ProyectoRick&Morty" */;
+			buildPhases = (
+				AC4233409B91E72DD0AC4D3F /* [CP] Check Pods Manifest.lock */,
+				84296D0F28A03ED800C54408 /* Sources */,
+				84296D1028A03ED800C54408 /* Frameworks */,
+				84296D1128A03ED800C54408 /* Resources */,
+				DF3732F8DCE5C03630A82BA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProyectoRick&Morty";
+			productName = "ProyectoRick&Morty";
+			productReference = 84296D1328A03ED800C54408 /* ProyectoRick&Morty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84296D0B28A03ED800C54408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84296D1228A03ED800C54408 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84296D0E28A03ED800C54408 /* Build configuration list for PBXProject "ProyectoRick&Morty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84296D0A28A03ED800C54408;
+			productRefGroup = 84296D1428A03ED800C54408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84296D1228A03ED800C54408 /* ProyectoRick&Morty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84296D1128A03ED800C54408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84296D1D28A03ED900C54408 /* Assets.xcassets in Resources */,
+				84296D2028A03ED900C54408 /* Main.storyboard in Resources */,
+				845575C728A046F4005E7C68 /* backgroud-img.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC4233409B91E72DD0AC4D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoRick&Morty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3732F8DCE5C03630A82BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoRick&Morty/Pods-ProyectoRick&Morty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoRick&Morty/Pods-ProyectoRick&Morty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoRick&Morty/Pods-ProyectoRick&Morty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84296D0F28A03ED800C54408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84296D1B28A03ED800C54408 /* ViewController.m in Sources */,
+				848CCD8A28A1BCF8005F506F /* CharacterProfile.m in Sources */,
+				845575CB28A04AC0005E7C68 /* Character.m in Sources */,
+				845575C528A04506005E7C68 /* CharactersController.m in Sources */,
+				84296D2228A03ED900C54408 /* main.m in Sources */,
+				84296D1828A03ED800C54408 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84296D1E28A03ED900C54408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84296D1F28A03ED900C54408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84296D2428A03EDA00C54408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84296D2528A03EDA00C54408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84296D2728A03EDA00C54408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8FCE1FEA7F6A752083C775 /* Pods-ProyectoRick&Morty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ProyectoRick&Morty/ProyectoRick_Morty.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProyectoRick-Morty-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gibran.ProyectoRick-Morty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		84296D2828A03EDA00C54408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D015C1275A9AECD276AD93AC /* Pods-ProyectoRick&Morty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ProyectoRick&Morty/ProyectoRick_Morty.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProyectoRick-Morty-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gibran.ProyectoRick-Morty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84296D0E28A03ED800C54408 /* Build configuration list for PBXProject "ProyectoRick&Morty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84296D2428A03EDA00C54408 /* Debug */,
+				84296D2528A03EDA00C54408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84296D2628A03EDA00C54408 /* Build configuration list for PBXNativeTarget "ProyectoRick&Morty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84296D2728A03EDA00C54408 /* Debug */,
+				84296D2828A03EDA00C54408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84296D0B28A03ED800C54408 /* Project object */;
+}
